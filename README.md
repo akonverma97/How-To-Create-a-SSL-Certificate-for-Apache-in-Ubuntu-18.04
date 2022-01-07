@@ -254,6 +254,13 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 Syntax OK
 ```
 
+#enable mod_rewrite for Apache 2.2
+
+```
+sudo a2enmod rewrite
+```
+
+
 If your output has Syntax OK in it, your configuration file has no syntax errors. We can safely restart Apache to implement our changes:
 
 ```
